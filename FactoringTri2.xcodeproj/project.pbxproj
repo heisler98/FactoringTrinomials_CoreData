@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A70C94A16E9638100A280DE /* CCTrinomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A70C94916E9638100A280DE /* CCTrinomial.m */; };
+		5A70C94D16E963AF00A280DE /* FTEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A70C94C16E963AF00A280DE /* FTEditorViewController.m */; };
+		5AE27BDC16E9600700CF1822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE27BDB16E9600700CF1822 /* UIKit.framework */; };
+		5AE27BDE16E9600700CF1822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE27BDD16E9600700CF1822 /* Foundation.framework */; };
+		5AE27BE016E9600700CF1822 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE27BDF16E9600700CF1822 /* CoreGraphics.framework */; };
+		5AE27BE616E9600700CF1822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AE27BE416E9600700CF1822 /* InfoPlist.strings */; };
+		5AE27BE816E9600700CF1822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE27BE716E9600700CF1822 /* main.m */; };
+		5AE27BEC16E9600700CF1822 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE27BEB16E9600700CF1822 /* FTAppDelegate.m */; };
+		5AE27BEE16E9600700CF1822 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE27BED16E9600700CF1822 /* Default.png */; };
+		5AE27BF016E9600700CF1822 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE27BEF16E9600700CF1822 /* Default@2x.png */; };
+		5AE27BF216E9600700CF1822 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE27BF116E9600700CF1822 /* Default-568h@2x.png */; };
+		5AE27BF516E9600800CF1822 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE27BF316E9600700CF1822 /* MainStoryboard.storyboard */; };
+		5AE27BF816E9600800CF1822 /* FTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE27BF716E9600800CF1822 /* FTMasterViewController.m */; };
+		5AE27BFB16E9600800CF1822 /* FTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE27BFA16E9600800CF1822 /* FTDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A70C94816E9638100A280DE /* CCTrinomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTrinomial.h; sourceTree = "<group>"; };
+		5A70C94916E9638100A280DE /* CCTrinomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTrinomial.m; sourceTree = "<group>"; };
+		5A70C94B16E963AF00A280DE /* FTEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTEditorViewController.h; sourceTree = "<group>"; };
+		5A70C94C16E963AF00A280DE /* FTEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTEditorViewController.m; sourceTree = "<group>"; };
+		5AE27BD816E9600700CF1822 /* FactoringTri2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoringTri2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE27BDB16E9600700CF1822 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AE27BDD16E9600700CF1822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AE27BDF16E9600700CF1822 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AE27BE316E9600700CF1822 /* FactoringTri2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FactoringTri2-Info.plist"; sourceTree = "<group>"; };
+		5AE27BE516E9600700CF1822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AE27BE716E9600700CF1822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AE27BE916E9600700CF1822 /* FactoringTri2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoringTri2-Prefix.pch"; sourceTree = "<group>"; };
+		5AE27BEA16E9600700CF1822 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		5AE27BEB16E9600700CF1822 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
+		5AE27BED16E9600700CF1822 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5AE27BEF16E9600700CF1822 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5AE27BF116E9600700CF1822 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5AE27BF416E9600700CF1822 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5AE27BF616E9600800CF1822 /* FTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMasterViewController.h; sourceTree = "<group>"; };
+		5AE27BF716E9600800CF1822 /* FTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMasterViewController.m; sourceTree = "<group>"; };
+		5AE27BF916E9600800CF1822 /* FTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDetailViewController.h; sourceTree = "<group>"; };
+		5AE27BFA16E9600800CF1822 /* FTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTDetailViewController.m; sourceTree = "<group>"; };
+		5AED733216EA9D0F001E9B4C /* FTEditorViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTEditorViewDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE27BD516E9600700CF1822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE27BDC16E9600700CF1822 /* UIKit.framework in Frameworks */,
+				5AE27BDE16E9600700CF1822 /* Foundation.framework in Frameworks */,
+				5AE27BE016E9600700CF1822 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A70C94E16E963B300A280DE /* Editor View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AED733216EA9D0F001E9B4C /* FTEditorViewDelegate.h */,
+				5A70C94B16E963AF00A280DE /* FTEditorViewController.h */,
+				5A70C94C16E963AF00A280DE /* FTEditorViewController.m */,
+			);
+			name = "Editor View Controller";
+			sourceTree = "<group>";
+		};
+		5A70C94F16E963BC00A280DE /* Master/Detail View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AE27BF616E9600800CF1822 /* FTMasterViewController.h */,
+				5AE27BF716E9600800CF1822 /* FTMasterViewController.m */,
+				5AE27BF916E9600800CF1822 /* FTDetailViewController.h */,
+				5AE27BFA16E9600800CF1822 /* FTDetailViewController.m */,
+			);
+			name = "Master/Detail View Controllers";
+			sourceTree = "<group>";
+		};
+		5A70C95016E963C700A280DE /* FacTri Code */ = {
+			isa = PBXGroup;
+			children = (
+				5A70C94816E9638100A280DE /* CCTrinomial.h */,
+				5A70C94916E9638100A280DE /* CCTrinomial.m */,
+			);
+			name = "FacTri Code";
+			sourceTree = "<group>";
+		};
+		5AE27BCF16E9600700CF1822 = {
+			isa = PBXGroup;
+			children = (
+				5AE27BE116E9600700CF1822 /* FactoringTri2 */,
+				5AE27BDA16E9600700CF1822 /* Frameworks */,
+				5AE27BD916E9600700CF1822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE27BD916E9600700CF1822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE27BD816E9600700CF1822 /* FactoringTri2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE27BDA16E9600700CF1822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE27BDB16E9600700CF1822 /* UIKit.framework */,
+				5AE27BDD16E9600700CF1822 /* Foundation.framework */,
+				5AE27BDF16E9600700CF1822 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AE27BE116E9600700CF1822 /* FactoringTri2 */ = {
+			isa = PBXGroup;
+			children = (
+				5A70C95016E963C700A280DE /* FacTri Code */,
+				5AE27BEA16E9600700CF1822 /* FTAppDelegate.h */,
+				5AE27BEB16E9600700CF1822 /* FTAppDelegate.m */,
+				5AE27BF316E9600700CF1822 /* MainStoryboard.storyboard */,
+				5A70C94E16E963B300A280DE /* Editor View Controller */,
+				5A70C94F16E963BC00A280DE /* Master/Detail View Controllers */,
+				5AE27BE216E9600700CF1822 /* Supporting Files */,
+			);
+			path = FactoringTri2;
+			sourceTree = "<group>";
+		};
+		5AE27BE216E9600700CF1822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE27BE316E9600700CF1822 /* FactoringTri2-Info.plist */,
+				5AE27BE416E9600700CF1822 /* InfoPlist.strings */,
+				5AE27BE716E9600700CF1822 /* main.m */,
+				5AE27BE916E9600700CF1822 /* FactoringTri2-Prefix.pch */,
+				5AE27BED16E9600700CF1822 /* Default.png */,
+				5AE27BEF16E9600700CF1822 /* Default@2x.png */,
+				5AE27BF116E9600700CF1822 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE27BD716E9600700CF1822 /* FactoringTri2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE27BFE16E9600800CF1822 /* Build configuration list for PBXNativeTarget "FactoringTri2" */;
+			buildPhases = (
+				5AE27BD416E9600700CF1822 /* Sources */,
+				5AE27BD516E9600700CF1822 /* Frameworks */,
+				5AE27BD616E9600700CF1822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoringTri2;
+			productName = FactoringTri2;
+			productReference = 5AE27BD816E9600700CF1822 /* FactoringTri2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE27BD016E9600700CF1822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "H-Tech";
+			};
+			buildConfigurationList = 5AE27BD316E9600700CF1822 /* Build configuration list for PBXProject "FactoringTri2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AE27BCF16E9600700CF1822;
+			productRefGroup = 5AE27BD916E9600700CF1822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE27BD716E9600700CF1822 /* FactoringTri2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE27BD616E9600700CF1822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE27BE616E9600700CF1822 /* InfoPlist.strings in Resources */,
+				5AE27BEE16E9600700CF1822 /* Default.png in Resources */,
+				5AE27BF016E9600700CF1822 /* Default@2x.png in Resources */,
+				5AE27BF216E9600700CF1822 /* Default-568h@2x.png in Resources */,
+				5AE27BF516E9600800CF1822 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE27BD416E9600700CF1822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE27BE816E9600700CF1822 /* main.m in Sources */,
+				5AE27BEC16E9600700CF1822 /* FTAppDelegate.m in Sources */,
+				5AE27BF816E9600800CF1822 /* FTMasterViewController.m in Sources */,
+				5AE27BFB16E9600800CF1822 /* FTDetailViewController.m in Sources */,
+				5A70C94A16E9638100A280DE /* CCTrinomial.m in Sources */,
+				5A70C94D16E963AF00A280DE /* FTEditorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AE27BE416E9600700CF1822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE27BE516E9600700CF1822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AE27BF316E9600700CF1822 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE27BF416E9600700CF1822 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE27BFC16E9600800CF1822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AE27BFD16E9600800CF1822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE27BFF16E9600800CF1822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoringTri2/FactoringTri2-Prefix.pch";
+				INFOPLIST_FILE = "FactoringTri2/FactoringTri2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AE27C0016E9600800CF1822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoringTri2/FactoringTri2-Prefix.pch";
+				INFOPLIST_FILE = "FactoringTri2/FactoringTri2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE27BD316E9600700CF1822 /* Build configuration list for PBXProject "FactoringTri2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE27BFC16E9600800CF1822 /* Debug */,
+				5AE27BFD16E9600800CF1822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE27BFE16E9600800CF1822 /* Build configuration list for PBXNativeTarget "FactoringTri2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE27BFF16E9600800CF1822 /* Debug */,
+				5AE27C0016E9600800CF1822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE27BD016E9600700CF1822 /* Project object */;
+}
