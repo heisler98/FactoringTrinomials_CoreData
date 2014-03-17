@@ -1,0 +1,23 @@
+#######################################CODE'NOTES####################################
+
+Underlying Logic Code Revamps
+-------------------------------------------------------------------------------------
+
+- @class Trinomial;
+    - Transition to 'a' != 1 == YES!
+        - Solution and plusValue COULD be different, due to the aTerm being able to be different. Must account for in trinomial methods when factorizing tris.
+    - Fractions not accepted in ax^2+bx+c
+        - Although fractions might occur in solutions in tris when the leading coeff. isn't ==1, they are not accepted in the app at this point. (consider future update?)
+    - quadForm() & borrowAndReturn() need serious clean-up help (currently don't even work)
+        - Rough draft started...once code works, needs help with memory leakage cleanup and 32 to 64-bit support. 
+        - Someone needs to explain this change and how it impacts the app
+    
+
+Overall Application Debugging Issues
+-------------------------------------------------------------------------------------
+
+- @class Trinomial;
+    - Instance Method -> quadForm() -> borrowAndReturn() -> numberToFraction()...
+        - Performance issues/impact?
+        - Data loss?
+        - Memory issues (leakage?)

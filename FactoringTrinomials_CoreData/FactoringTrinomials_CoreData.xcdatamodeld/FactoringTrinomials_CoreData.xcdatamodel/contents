@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Trinomial" representedClassName="Trinomial" syncable="YES">
+        <attribute name="aTerm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bDisplayTerm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="binomial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bOperand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bTerm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cDisplayTerm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cOperand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cTerm" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Trinomial" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
